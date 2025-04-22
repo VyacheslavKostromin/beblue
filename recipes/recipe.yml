@@ -44,6 +44,7 @@ modules:
       - kernel-cachyos-lto-devel-matched
       - morewaita-icon-theme
       - sysfsutils
+      - wireguard-tools
 
     remove:
       # example: removing firefox (in favor of the flatpak)
