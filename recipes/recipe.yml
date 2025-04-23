@@ -35,13 +35,14 @@ modules:
 
 
   - type: rpm-ostree
-  
+
     install:
       - adw-gtk3-theme
       - code
       - distrobox
       - fastfetch
       - ffmpeg
+      - ffmpeg-libs
       - gparted
       - htop
       - irqbalance
@@ -59,6 +60,7 @@ modules:
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
       - ffmpeg-free
+      - libavcodec-free
       - gnome-classic-session
       - kernel
       - kernel-core
