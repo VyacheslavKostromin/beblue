@@ -30,14 +30,15 @@ modules:
       - https://packages.microsoft.com/keys/microsoft.asc
 
     install:
-    - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
-    - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
+      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
+      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
 
     install:
       - adw-gtk3-theme
       - code
       - distrobox
       - fastfetch
+      - ffmpeg
       - gparted
       - htop
       - irqbalance
@@ -47,12 +48,14 @@ modules:
       - scrcpy
       - sysfsutils
       - wireguard-tools
+      
 
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+      - ffmpeg-free
       - gnome-classic-session
       - kernel
       - kernel-core
