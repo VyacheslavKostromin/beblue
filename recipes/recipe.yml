@@ -61,6 +61,7 @@ modules:
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
       - ffmpeg-free
       - libavcodec-free
+      - libavutil-free
       - gnome-classic-session
       - kernel
       - kernel-core
