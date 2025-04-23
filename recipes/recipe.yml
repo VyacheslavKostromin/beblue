@@ -62,6 +62,7 @@ modules:
       - ffmpeg-free
       - libavcodec-free
       - libavutil-free
+      - libpostproc-free
       - gnome-classic-session
       - kernel
       - kernel-core
