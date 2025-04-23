@@ -33,6 +33,9 @@ modules:
       - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
       - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
 
+
+  - type: rpm-ostree
+  
     install:
       - adw-gtk3-theme
       - code
