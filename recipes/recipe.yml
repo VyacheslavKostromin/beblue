@@ -24,6 +24,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/repo/fedora-%OS_VERSION%/trixieua-mutter-patched-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/trixieua/mesa-clang/repo/fedora-%OS_VERSION%/trixieua-mesa-clang-fedora-%OS_VERSION%.repo?arch=x86_64
       - https://copr.fedorainfracloud.org/coprs/trixieua/morewaita-icon-theme/repo/fedora-%OS_VERSION%/trixieua-morewaita-icon-theme-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/zeno/scrcpy/repo/fedora-%OS_VERSION%/zeno-scrcpy-fedora-%OS_VERSION%.repo
 
     keys:
       - https://packages.microsoft.com/keys/microsoft.asc
@@ -43,6 +44,7 @@ modules:
       - kernel-cachyos-lto
       - kernel-cachyos-lto-devel-matched
       - morewaita-icon-theme
+      - scrcpy
       - sysfsutils
       - wireguard-tools
 
