@@ -50,8 +50,6 @@ modules:
       - scrcpy
       - sysfsutils
       - wireguard-tools
-      - docker-cli
-      - poetry
       
 
     remove:
