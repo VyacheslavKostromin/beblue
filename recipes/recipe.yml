@@ -105,5 +105,13 @@ modules:
       - 3733 # Tiling Assistant
       - 6807 # System Monitor
 
+  - type: script
+    snippets:
+      - "rpm -e dnf5 dnf5-plugins"
+
+  - type: script
+    scripts:
+      - remove-rpm.sh
+
   - type: initramfs
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
