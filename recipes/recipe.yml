@@ -48,7 +48,6 @@ modules:
         - kernel-cachyos-lto
         - kernel-cachyos-lto-devel-matched
         - morewaita-icon-theme
-        - scrcpy
         - sysfsutils
         - wireguard-tools
       
