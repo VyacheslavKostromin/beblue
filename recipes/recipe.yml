@@ -37,6 +37,7 @@ modules:
     install:
       packages:
         - adw-gtk3-theme
+        - audacious
         - code
         - distrobox
         - fastfetch
