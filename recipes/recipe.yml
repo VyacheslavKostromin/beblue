@@ -26,14 +26,12 @@ modules:
       - trixieua/mutter-patched
       - trixieua/mesa-clang
       - trixieua/morewaita-icon-theme
-
       keys:
       - https://packages.microsoft.com/keys/microsoft.asc
 
 #      install:
 #        - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
 #        - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
-
 
   - type: dnf
     install:
@@ -88,6 +86,7 @@ modules:
         - mesa-libGL
         - mesa-vulkan-drivers
         - mesa-va-drivers
+
   - type: kargs
     arch: x86_64
     kargs:
@@ -112,5 +111,4 @@ modules:
     scripts:
       - remove-rpm.sh
 
-  - type: initramfs
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
