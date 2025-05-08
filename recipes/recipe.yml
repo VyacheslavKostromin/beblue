@@ -44,6 +44,9 @@ modules:
         - fastfetch
         - gparted
         - htop
+        - mock
+        - rpmdevtools
+        - rpmlint
         - irqbalance
         - kernel-cachyos-lto
         - kernel-cachyos-lto-devel-matched
