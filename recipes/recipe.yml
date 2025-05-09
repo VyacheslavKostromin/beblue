@@ -26,7 +26,8 @@ modules:
       - bieszczaders/kernel-cachyos-addons
       - trixieua/mutter-patched
       - trixieua/mesa-clang
-      - zeno/scrcpy
+      nonfree:
+      - rpmfusion
       keys:
       - https://packages.microsoft.com/keys/microsoft.asc
 
@@ -52,7 +53,6 @@ modules:
         - kernel-cachyos-lto-devel-matched
         - sysfsutils
         - scx-scheds
-        - scrcpy
         - wireguard-tools
       
     remove:
