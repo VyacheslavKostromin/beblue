@@ -26,10 +26,9 @@ modules:
       - bieszczaders/kernel-cachyos-addons
       - trixieua/mutter-patched
       - trixieua/mesa-clang
-      nonfree:
-      - rpmfusion
       keys:
       - https://packages.microsoft.com/keys/microsoft.asc
+      nonfree: rpmfusion
 
 #      install:
 #        - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
