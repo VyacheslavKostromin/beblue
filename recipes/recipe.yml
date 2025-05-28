@@ -38,6 +38,7 @@ modules:
     install:
       packages:
         - adw-gtk3-theme
+        - android-tools
         - audacious
         - code
         - distrobox
