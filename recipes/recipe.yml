@@ -56,10 +56,19 @@ modules:
         - wireguard-tools
         - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.5.1/opentabletdriver-0.6.5.1-1.x86_64.rpm
         - https://github.com/Figma-Linux/figma-linux/releases/download/v0.11.5/figma-linux_0.11.5_linux_x86_64.rpm
-        - adoptium-temurin-java-repository
-        - temurin-21-jdk
+
     optfix:
       - figma-linux
+
+  - type: dnf
+    install:
+      packages:
+        - adoptium-temurin-java-repository
+
+  - type: dnf
+    install:
+      packages:
+        - temurin-21-jdk
 
     remove:
       packages:
