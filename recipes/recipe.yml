@@ -26,7 +26,6 @@ modules:
       - bieszczaders/kernel-cachyos-addons
       - trixieua/mutter-patched
       - trixieua/mesa-clang
-      - brycensranch/gpu-screen-recorder-gi
       keys:
       - https://packages.microsoft.com/keys/microsoft.asc
       nonfree: rpmfusion
@@ -58,7 +57,6 @@ modules:
         - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.5.1/opentabletdriver-0.6.5.1-1.x86_64.rpm
         - https://github.com/Figma-Linux/figma-linux/releases/download/v0.11.5/figma-linux_0.11.5_linux_x86_64.rpm
         - java-21-openjdk
-        - gpu-screen-recorder-ui
 
     optfix:
       - figma-linux
