@@ -1,0 +1,8 @@
+name: beblue-main
+description: bebebeba
+
+base-image: quay.io/fedora/fedora-minimal
+image-version: 42
+
+modules:
+    - from-file: common/common.yml

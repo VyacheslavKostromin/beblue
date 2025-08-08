@@ -1,0 +1,22 @@
+modules:
+  - type: default-flatpaks
+    configurations:
+      - scope: system
+        repo:
+          title: Flathub (system)
+        install:
+          - org.gnome.Epiphany
+          - org.gnome.Snapshot
+          - org.gnome.Calculator
+          - org.gnome.Loupe
+          - org.gnome.SimpleScan
+          - org.gnome.Papers
+          - org.gnome.Weather
+          - org.gnome.Maps
+          - org.gnome.Calendar
+          - org.gnome.Clocks
+          - org.gnome.font-viewer
+          - org.gnome.Characters
+          - org.gnome.Connections
+          - org.gnome.Decibels
+          - org.gnome.Showtime
