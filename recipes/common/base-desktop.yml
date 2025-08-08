@@ -25,8 +25,8 @@ install:
     - NetworkManager-ssh-gnome
     - NetworkManager-vpnc-gnome
     - NetworkManager-wwan
-    - Packagekit-command-not-found
-    - Packagekit-gtk3-module
+    - PackageKit-command-not-found
+    - PackageKit-gtk3-module
     - adobe-source-code-pro-fonts
     - avahi
     - fprintd-pam
