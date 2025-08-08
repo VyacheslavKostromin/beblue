@@ -1,7 +1,7 @@
 name: beblue-main
 description: bebebeba
 
-base-image: quay.io/fedora/fedora-minimal
+base-image: quay.io/fedora/fedora
 image-version: 42
 
 modules:
