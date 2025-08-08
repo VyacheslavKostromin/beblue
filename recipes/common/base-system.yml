@@ -3,7 +3,6 @@ group-install:
   packages:
     - core
     - base-graphical
-
 install:
   packages:
     - amd-gpu-firmware
