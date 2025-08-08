@@ -57,7 +57,7 @@ install:
     - nmap
     - nss-mdns
     - ntfs-3g
-    - ntfs-progs
+    - ntfsprogs
     - opensc
     - passwdqc
     - pciutils
