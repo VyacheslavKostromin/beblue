@@ -31,7 +31,7 @@ modules:
           - org.gnome.Weather
           - org.gnome.Maps
           - org.gnome.Calendar
-          - org.gnome.Clocks
+          - org.gnome.clocks
           - org.gnome.font-viewer
           - org.gnome.Characters
           - org.gnome.Connections
