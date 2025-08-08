@@ -8,7 +8,9 @@ modules:
       packages:
         - desktop-accessibility
         - fonts
-
+        
+    install:
+      packages:
         # gnome desktop
         - dconf
         - gdm
@@ -70,7 +72,6 @@ modules:
         - xdg-user-dirs-gtk
         - gnome-console
 
-  - type: dnf
     replace:
       - from-repo: copr:copr.fedorainfracloud.org:bebeb:nautilus-kgx
         packages:

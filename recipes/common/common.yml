@@ -7,5 +7,6 @@ modules:
 
   - from-file: packages/base-system.yml
   - from-file: packages/base-desktop.yml
+
   - type: initramfs
   - type: signing
