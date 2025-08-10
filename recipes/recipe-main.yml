@@ -1,0 +1,13 @@
+name: beblue-main
+description: bebebeba
+
+base-image: quay.io/fedora/fedora-silverblue
+image-version: 42
+
+modules:
+    - from-file: common/common-packages.yml 
+    - from-file: common/common-system.yml
+    - from-file: common/gnome-extensions.yml
+    - from-file: common/common-files.yml
+    - type: initramfs
+    - type: signing

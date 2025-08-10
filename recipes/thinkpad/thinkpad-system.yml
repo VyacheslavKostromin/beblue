@@ -1,0 +1,9 @@
+modules:
+  - type: systemd
+    system:
+      enabled:
+        - zcfan.service
+
+  - type: kargs
+    kargs:
+      - thinkpad_acpi.fan_control=1

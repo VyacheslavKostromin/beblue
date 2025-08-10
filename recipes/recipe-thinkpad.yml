@@ -1,0 +1,16 @@
+name: beblue-thinkpad
+description: bebebeba
+
+base-image: quay.io/fedora/fedora-silverblue
+image-version: 42
+
+modules:
+    - from-file: common/common-packages.yml 
+    - from-file: common/common-system.yml
+    - from-file: thinkpad/thinkpad-packages.yml
+    - from-file: thinkpad/thinkpad-system.yml
+    - from-file: common/gnome-extensions.yml
+    - from-file: common/common-files.yml
+    - from-file: thinkpad/thinkpad-files.yml
+    - type: initramfs
+    - type: signing
