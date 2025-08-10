@@ -24,25 +24,25 @@ modules:
         packages:
           - nautilus
 
-  - type: yafti
+#  - type: yafti
 
-#  - type: default-flatpaks
-#    configurations:
-#      - scope: system
-#        notify: true
-#        install:
-#          - org.gnome.Epiphany
-#          - org.gnome.Snapshot
-#          - org.gnome.Calculator
-#          - org.gnome.Loupe
-#          - org.gnome.SimpleScan
-#          - org.gnome.Papers
-#          - org.gnome.Weather
-#          - org.gnome.Maps
-#          - org.gnome.Calendar
-#          - org.gnome.clocks
-#          - org.gnome.font-viewer
-#          - org.gnome.Characters
-#          - org.gnome.Connections
-#          - org.gnome.Decibels
-#          - org.gnome.Showtime
+  - type: default-flatpaks
+    configurations:
+      - scope: system
+        notify: true
+        install:
+          - org.gnome.Epiphany
+          - org.gnome.Snapshot
+          - org.gnome.Calculator
+          - org.gnome.Loupe
+          - org.gnome.SimpleScan
+          - org.gnome.Papers
+          - org.gnome.Weather
+          - org.gnome.Maps
+          - org.gnome.Calendar
+          - org.gnome.clocks
+          - org.gnome.font-viewer
+          - org.gnome.Characters
+          - org.gnome.Connections
+          - org.gnome.Decibels
+          - org.gnome.Showtime
