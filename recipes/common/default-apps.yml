@@ -10,7 +10,6 @@ modules:
         - baobab
         - gnome-disk-utility
         - gnome-logs
-        - gnome-console
     replace:
       - from-repo: copr:copr.fedorainfracloud.org:bebeb:nautilus-kgx
         packages:

@@ -6,38 +6,37 @@ group-install:
     - fonts
 install:
   packages:
-    - dconf
-    - gdm
-    - gnome-control-center
-    - gnome-initial-setup
-    - gnome-session-wayland-session
-    - gnome-settings-daemon
-    - gnome-shell
-    - gnome-software
-    - nautilus
-    - polkit
     - ModemManager
     - NetworkManager-adsl
     - NetworkManager-openconnect-gnome
     - NetworkManager-openvpn-gnome
     - NetworkManager-ppp
-    - NetworkManager-pptp-gnome
     - NetworkManager-ssh-gnome
     - NetworkManager-vpnc-gnome
     - NetworkManager-wwan
-    - PackageKit-command-not-found
-    - PackageKit-gtk3-module
     - adobe-source-code-pro-fonts
     - avahi
+    - dconf
     - fprintd-pam
+    - gdm
     - glib-networking
     - gnome-backgrounds
     - gnome-backgrounds-extras
     - gnome-bluetooth
     - gnome-browser-connector
+    - gnome-classic-session
     - gnome-color-manager
+    - gnome-control-center
+    - gnome-disk-utility
     - gnome-epub-thumbnailer
+    - gnome-initial-setup
     - gnome-remote-desktop
+    - gnome-session-wayland-session
+    - gnome-settings-daemon
+    - gnome-shell
+    - gnome-software
+    - gnome-system-monitor
+    - gnome-user-docs
     - gnome-user-share
     - gvfs-afc
     - gvfs-afp
@@ -52,11 +51,26 @@ install:
     - localsearch
     - mesa-dri-drivers
     - mesa-libEGL
+    - mesa-vulkan-drivers
+    - nautilus
+    - plymouth-system-theme
+    - polkit
+    - gnome-console
     - rygel
-    - sane-backends-drivers-scanners
-    - sushi
+    - systemd-oomd-defaults
     - tinysparql
     - xdg-desktop-portal
     - xdg-desktop-portal-gnome
     - xdg-desktop-portal-gtk
     - xdg-user-dirs-gtk
+    - qadwaitadecorations-qt5
+    - qt5-qtbase
+    - qt5-qtbase-gui
+    - qt5-qtdeclarative
+    - qt5-qtxmlpatterns
+    - evince-thumbnailer
+    - totem-video-thumbnailer
+remove:
+  auto-remove: false
+  packages:
+    - gnome-software-fedora-langpacks

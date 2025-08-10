@@ -5,38 +5,62 @@ group-install:
     - base-graphical
 install:
   packages:
+    - NetworkManager
+    - NetworkManager-bluetooth
+    - NetworkManager-config-connectivity-fedora
+    - NetworkManager-wifi
+    - NetworkManager-wwan
+    - acl
+    - alsa-ucm
+    - alsa-utils
     - amd-gpu-firmware
-    - amd-ucode-firmware
-    - intel-gpu-firmware
-    - linux-firmware
-    - microcode_ctl
-    - nvidia-gpu-firmware
-    - sudo
-    - systemd-udev
-    - tar
-    - unzip
+    - at-spi2-atk
+    - at-spi2-core
+    - atheros-firmware
+    - attr
+    - b43-openfwwf
+    - bash
     - bash-color-prompt
     - bash-completion
     - bc
     - bind-utils
+    - bluez-cups
+    - brcmfmac-firmware
+    - brltty
     - btrfs-progs
     - bzip2
     - chrony
     - cifs-utils
+    - colord
     - compsize
-    - NetworkManager-config-connectivity-fedora
-    - abrt-cli
-    - abrt-desktop
-    - acl
-    - attr
+    - coreutils
+    - cpio
+    - cryptsetup
+    - cups
+    - cups-browsed
+    - cups-filters
+    - curl
     - default-editor
-    - dnf5-plugins
+    - dhcp-client
+    - dnsmasq
+    - e2fs-progs
+    - ethtool
     - exfatprogs
     - file
+    - filesystem
+    - firewalld
+    - fpaste
+    - fwupd
     - gamemode
-    - git
+    - glibc
     - glibc-all-langpacks
     - gnupg2
+    - gutenprint
+    - gutenprint-cups
+    - hostname
+    - hplip
+    - hunspell
+    - hyperv-daemons
     - ibus-anthy
     - ibus-chewing
     - ibus-gtk3
@@ -45,41 +69,101 @@ install:
     - ibus-libpinyin
     - ibus-m17n
     - ibus-typing-booster
+    - intel-gpu-firmware
+    - iproute
+    - iptables-nft
     - iptstate
+    - iputils
+    - iwlegacy-firmware
+    - iwlwifi-dvm-firmware
+    - iwlwifi-mvm-firmware
+    - kbd
+    - less
+    - libertas-firmware
+    - libglvnd-gles
+    - linux-firmware
     - logrotate
     - lsof
-    - mailcap
+    - man-db
     - man-pages
     - mdadm
-    - mtr
-    - net-tools
+    - mesa-dri-drivers
+    - mesa-vulkan-drivers
+    - mt7xxx-firmware
     - nfs-utils
-    - nmap
+    - nss-altfiles
     - nss-mdns
     - ntfs-3g
     - ntfsprogs
+    - nvidia-gpu-firmware
+    - nxpwireless-firmware
+    - open-vm-tools-desktop
     - opensc
+    - openssh-clients
+    - openssh-server
+    - orca
     - passwdqc
     - pciutils
-    - pinentry-gnome3
+    - pipewire-alsa
+    - pipewire-config-raop
+    - pipewire-gstreamer
+    - pipewire-pulseaudio
+    - pipewire-utils
     - plocate
+    - plymouth
     - plymouth-system-theme
+    - policycoreutils
     - policycoreutils-python-utils
+    - prefixdevname
+    - procps-ng
     - psmisc
-    - qadwaitadecorations-qt5
+    - quota
+    - realtek-firmware
+    - rootfiles
+    - rpm
+    - rpm-ostree
     - rsync
-    - symlinks
+    - samba-client
+    - selinux-policy-targeted
+    - setup
+    - shadow-utils
+    - sos
+    - speech-dispatcher
+    - sssd-common
+    - sssd-kcm
+    - sudo
+    - system-config-printer-udev
+    - systemd
     - systemd-oomd-defaults
-    - thermald
+    - systemd-resolved
+    - systemd-udev
+    - tar
     - time
+    - tiwilink-firmware
     - distrobox
-    - traceroute
     - tree
+    - unzip
     - uresourced
+    - usb-modeswitch
     - usbutils
+    - util-linux
+    - vim-minimal
     - wget2-wget
     - which
     - whois
+    - wireplumber
+    - words
+    - wpa_supplicant
     - zip
-    - flatpak
-    - podman
+    - zram-generator-defaults
+    - alsa-sof-firmware
+    - amd-ucode-firmware
+    - cirrus-audio-firmware
+    - intel-audio-firmware
+    - intel-vsc-firmware
+    - libva-intel-media-driver
+    - mcelog
+    - microcode_ctl
+    - thermald
+    - virtualbox-guest-additions
+    - qemu-guest-system
