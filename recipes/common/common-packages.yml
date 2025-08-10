@@ -11,11 +11,13 @@ modules:
         - gnome-disk-utility
         - gnome-logs
         - distrobox
+        - gnome-console
     remove:
       packages:
         - firefox
         - firefox-langpacks
         - toolbox
+        - ptyxis
     replace:
       - from-repo: copr:copr.fedorainfracloud.org:bebeb:nautilus-kgx
         packages:
