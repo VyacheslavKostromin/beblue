@@ -1,6 +1,7 @@
 type: dnf
 group-install:
   packages:
+    - core
     - base-graphical
 install:
   packages:
