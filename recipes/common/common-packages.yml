@@ -1,51 +1,56 @@
-type: dnf
-repos:
-  copr:
-    - bebeb/nautilus-kgx
-    - trixieua/mutter-patched
-    - trixieua/mesa-clang
-install:
-  packages:
-    - adw-gtk3-theme
-    - fastfetch
-    - gnome-tweaks
-    - gnome-text-editor
-    - baobab
-    - gnome-disk-utility
-    - gnome-logs
-    - distrobox
-    - gnome-console
-    - gnome-backgrounds-extras
-remove:
-  packages:
-    - firefox
-    - firefox-langpacks
-    - toolbox
-    - ptyxis
-    - gnome-classic-session
-replace:
-  - from-repo: copr:copr.fedorainfracloud.org:bebeb:nautilus-kgx
-    packages:
-      - nautilus
-replace:
-  - from-repo: copr:copr.fedorainfracloud.org:trixieua:mutter-patched
-    skip-unavailable: true
-    packages:
-      - mutter
-      - mutter-common
-      - gdm
-      - gnome-shell
-      - gnome-shell-common
-      - xorg-x11-server-Xwayland
-replace:
-  - from-repo: copr:copr.fedorainfracloud.org:trixieua:mesa-clang
-    skip-unavailable: true
-    packages:
-      - mesa-filesystem
-      - mesa-libgbm
-      - mesa-dri-drivers
-      - mesa-libEGL
-      - mesa-libGL
-      - mesa-vulkan-drivers
-      - mesa-va-drivers
-  
+modules:
+  - type: dnf
+    repos:
+      copr:
+        - bebeb/nautilus-kgx
+        - trixieua/mutter-patched
+        - trixieua/mesa-clang
+    install:
+      packages:
+        - adw-gtk3-theme
+        - fastfetch
+        - gnome-tweaks
+        - gnome-text-editor
+        - baobab
+        - gnome-disk-utility
+        - gnome-logs
+        - distrobox
+        - gnome-console
+        - gnome-backgrounds-extras
+    remove:
+      packages:
+        - firefox
+        - firefox-langpacks
+        - toolbox
+        - ptyxis
+        - gnome-classic-session
+    replace:
+      - from-repo: copr:copr.fedorainfracloud.org:bebeb:nautilus-kgx
+        packages:
+          - nautilus
+    replace:
+      - from-repo: copr:copr.fedorainfracloud.org:trixieua:mutter-patched
+        skip-unavailable: true
+        packages:
+          - mutter
+          - mutter-common
+          - gdm
+          - gnome-shell
+          - gnome-shell-common
+          - xorg-x11-server-Xwayland
+    replace:
+      - from-repo: copr:copr.fedorainfracloud.org:trixieua:mesa-clang
+        skip-unavailable: true
+        packages:
+          - mesa-filesystem
+          - mesa-libgbm
+          - mesa-dri-drivers
+          - mesa-libEGL
+          - mesa-libGL
+          - mesa-vulkan-drivers
+          - mesa-va-drivers
+
+  - type: soar
+    additional-repos: true
+    auto-upgrade: true
+    upgrade-interval: '1d'
