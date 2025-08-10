@@ -1,7 +1,5 @@
 # Beblue &nbsp; [![bluebuild build badge](https://github.com/blue-build/template/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/template/actions/workflows/build.yml)
 
-## Installation
-
 ### Differences between images
 `beblue-main` - Mostly vanilla Silverblue image with some goodies (or bads)
 
