@@ -6,6 +6,7 @@ group-install:
 install:
   packages:
     - accountsservice
+    - accountsservice-libs
     - NetworkManager-bluetooth
     - NetworkManager-config-connectivity-fedora
     - NetworkManager-wifi
