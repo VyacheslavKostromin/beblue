@@ -9,9 +9,7 @@ modules:
         - trixieua/morewaita-icon-theme
     install:
       packages:
-        - repo: negativo17 - Multimedia
-          packages:
-            - ffmpeg
+        - ffmpeg
         - adw-gtk3-theme
         - btop
         - bat
