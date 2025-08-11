@@ -2,7 +2,7 @@ name: beblue-main
 description: bebebeba
 
 base-image: quay.io/fedora/fedora-silverblue
-image-version: 42
+image-version: rawhide
 
 modules:
     - from-file: common/common-packages.yml 
