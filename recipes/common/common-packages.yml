@@ -9,7 +9,7 @@ modules:
         - trixieua/morewaita-icon-theme
     install:
       packages:
-        - repo: negativo17
+        - repo: negativo17 - Multimedia
           packages:
             - ffmpeg
         - adw-gtk3-theme
@@ -21,8 +21,6 @@ modules:
         - ncdu
         - fastfetch
         - gnome-tweaks
-        - gnome-text-editor
-        - gnome-disk-utility
         - distrobox
       #  - gnome-console
         - gnome-backgrounds-extras
