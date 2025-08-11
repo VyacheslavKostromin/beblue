@@ -2,7 +2,7 @@ name: beblue-cachyos
 description: bebebeba
 
 base-image: quay.io/fedora/fedora-silverblue
-image-version: rawhide
+image-version: 42
 
 modules:
     - from-file: common/common-packages.yml 
