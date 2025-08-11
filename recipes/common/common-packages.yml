@@ -1,33 +1,42 @@
 modules:
   - type: dnf
     repos:
+      nonfree: negativo17
       copr:
-        - bebeb/nautilus-kgx
+      #  - bebeb/nautilus-kgx
         - trixieua/mutter-patched
         - trixieua/mesa-clang
+        - trixieua/morewaita-icon-theme
     install:
       packages:
+        - repo: negativo17
+          packages:
+            - ffmpeg
         - adw-gtk3-theme
+        - btop
+        - bat
+        - morewaita-icon-theme
+        - nvtop
+        - smartmontools
+        - ncdu
         - fastfetch
         - gnome-tweaks
         - gnome-text-editor
-        - baobab
         - gnome-disk-utility
-        - gnome-logs
         - distrobox
-        - gnome-console
+      #  - gnome-console
         - gnome-backgrounds-extras
     remove:
       packages:
         - firefox
         - firefox-langpacks
         - toolbox
-        - ptyxis
+      #  - ptyxis
         - gnome-classic-session
-    replace:
-      - from-repo: copr:copr.fedorainfracloud.org:bebeb:nautilus-kgx
-        packages:
-          - nautilus
+    #replace:
+    #  - from-repo: copr:copr.fedorainfracloud.org:bebeb:nautilus-kgx
+    #    packages:
+    #      - nautilus
     replace:
       - from-repo: copr:copr.fedorainfracloud.org:trixieua:mutter-patched
         skip-unavailable: true
