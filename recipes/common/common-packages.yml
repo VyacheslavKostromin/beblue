@@ -1,7 +1,7 @@
 modules:
   - type: dnf
     repos:
-      nonfree: negativo17
+      # nonfree: negativo17
       copr:
       #  - bebeb/nautilus-kgx
         - trixieua/mutter-patched
@@ -9,6 +9,7 @@ modules:
         - trixieua/morewaita-icon-theme
     install:
       packages:
+        - ananicy-cpp
         - ffmpeg
         - adw-gtk3-theme
         - btop
