@@ -9,7 +9,6 @@ modules:
         - trixieua/morewaita-icon-theme
     install:
       packages:
-        - ananicy-cpp
         - ffmpeg
         - adw-gtk3-theme
         - btop
