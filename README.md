@@ -14,17 +14,9 @@
 
 ### To rebase an existing atomic Fedora installation to the latest build:
 
-- First rebase to the unsigned image, to get the proper signing keys and policies installed:
+- Rebase to the signed image, like so:
   ```
-  sudo bootc switch ostree-unverified-registry:ghcr.io/vyacheslavkostromin/beblue-main:latest
-  ```
-- Reboot to complete the rebase:
-  ```
-  systemctl reboot
-  ```
-- Then rebase to the signed image, like so:
-  ```
-  sudo bootc switch ostree-image-signed:docker://ghcr.io/vyacheslavkostromin/beblue-main:latest
+  sudo bootc switch ghcr.io/vyacheslavkostromin/beblue-main:latest
   ```
 - Reboot again to complete the installation
   ```
