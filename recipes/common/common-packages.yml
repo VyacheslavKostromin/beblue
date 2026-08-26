@@ -56,7 +56,6 @@ modules:
           - mesa-libGL
           - mesa-vulkan-drivers
           - mesa-va-drivers
-
     replace:
       - from-repo: rpmfusion-nonfree
         allow-erasing: true
@@ -72,7 +71,6 @@ modules:
     install:
       packages:
         - libva-intel-driver
-
   - type: default-flatpaks
     configurations:
       - scope: system
@@ -96,7 +94,6 @@ modules:
           - com.github.tchx84.Flatseal
           - com.mattjakeman.ExtensionManager
           - org.gnome.FileRoller
-
   - type: soar
     additional-repos: true
     auto-upgrade: true
