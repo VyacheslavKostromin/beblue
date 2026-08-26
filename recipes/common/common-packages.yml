@@ -1,7 +1,7 @@
 modules:
   - type: dnf
     repos:
-      # nonfree: negativo17
+      nonfree: rpmfusion
       copr:
       #  - bebeb/nautilus-kgx
         - trixieua/mutter-patched
@@ -10,7 +10,6 @@ modules:
         - imput/helium
     install:
       packages:
-        - ffmpeg
         - adw-gtk3-theme
         - bat
         - morewaita-icon-theme
@@ -57,6 +56,22 @@ modules:
           - mesa-libGL
           - mesa-vulkan-drivers
           - mesa-va-drivers
+
+    replace:
+      - from-repo: rpmfusion-nonfree
+        allow-erasing: true
+        packages:
+          - old: ffmpeg-free
+          - new: ffmpeg
+    group-install:
+      with-optional: false
+      packages:
+        - multimedia
+      exclude:
+        - PackageKit-gstreamer-plugin
+    install:
+      packages:
+        - libva-intel-driver
 
   - type: default-flatpaks
     configurations:
