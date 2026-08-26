@@ -2,4 +2,5 @@ type: gnome-extensions
 install:
   - 517 # Caffeine
   - 3733 # Tiling Assistant
-  - 6807 # System Monitor
+  - 10660 # Quick Settings Scroll
+  - 4998 # Legacy (GTK3) Theme Scheme Auto Switcher

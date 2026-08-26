@@ -12,7 +12,6 @@ modules:
       packages:
         - ffmpeg
         - adw-gtk3-theme
-        - btop
         - bat
         - morewaita-icon-theme
         - smartmontools
@@ -22,6 +21,8 @@ modules:
         - helium-bin
       #  - gnome-console
         - gnome-backgrounds-extras
+        - gnome-logs
+        - gnome-text-editor
     remove:
       packages:
         - firefox
@@ -30,6 +31,7 @@ modules:
       #  - ptyxis
         - gnome-classic-session
         - gnome-software
+        - gnome-system-monitor
     #replace:
     #  - from-repo: copr:copr.fedorainfracloud.org:bebeb:nautilus-kgx
     #    packages:
@@ -61,6 +63,27 @@ modules:
       - scope: system
         install: # system flatpaks we want all users to have and not remove
           - io.github.kolunmi.Bazaar
+          - org.gnome.Loupe
+          - org.gnome.Decibels
+          - org.gnome.Calculator
+          - org.gnome.Calendar
+          - org.gnome.Snapshot
+          - org.gnome.Characters
+          - org.gnome.clocks
+          - org.gnome.baobab
+          - org.gnome.SimpleScan
+          - org.gnome.Papers
+          - org.gnome.font-viewer
+          - org.gnome.Showtime
+          - org.gnome.Weather
+          - net.nokyan.Resources
+          - io.github.nozwock.Packet
+          - com.github.tchx84.Flatseal
+          - com.mattjakeman.ExtensionManager
+          - cx.modal.TestCenter
+          - org.gnome.FileRoller
+          - org.gtk.Gtk3Theme.adw-gtk3
+          - org.gtk.Gtk3Theme.adw-gtk3-dark
 
   - type: soar
     additional-repos: true
