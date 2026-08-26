@@ -1,6 +1,12 @@
-type: kargs
-arch: x86_64
-kargs:
-  - preempt=full
-  - mitigations=off
-  - nowatchdog
+modules:
+  - type: kargs
+    arch: x86_64
+    kargs:
+      - preempt=full
+      - mitigations=off
+      - nowatchdog
+
+  - type: systemd
+    system:
+      enabled:
+        - uupd.service

@@ -8,6 +8,7 @@ modules:
         - trixieua/mesa-clang
         - trixieua/morewaita-icon-theme
         - imput/helium
+        - ublue-os/packages
     install:
       allow-erasing: true
       packages:
@@ -19,6 +20,7 @@ modules:
         - gnome-tweaks
         - distrobox
         - helium-bin
+        - uupd
       #  - gnome-console
         - gnome-backgrounds-extras
         - gnome-logs
