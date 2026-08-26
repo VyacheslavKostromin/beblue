@@ -3,10 +3,10 @@ modules:
     system:
       enabled:
         - greetd.service
-        
+
   - type: kargs
     arch: x86_64
     kargs:
       - preempt=full
       - mitigations=off
-  -    nowatchdog
+      -    nowatchdog
