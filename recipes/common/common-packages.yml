@@ -23,6 +23,7 @@ modules:
         - gnome-logs
         - gnome-text-editor
         - libva-intel-driver
+        - ffmpeg
     remove:
       packages:
         - firefox
@@ -58,12 +59,6 @@ modules:
           - mesa-vulkan-drivers
           - mesa-va-drivers
 
-    replace:
-      - from-repo: rpmfusion-nonfree
-        allow-erasing: true
-        packages:
-          - old: ffmpeg-free
-          - new: ffmpeg
     group-install:
       with-optional: false
       packages:
