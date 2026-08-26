@@ -9,4 +9,4 @@ modules:
     kargs:
       - preempt=full
       - mitigations=off
-      -    nowatchdog
+      - nowatchdog
