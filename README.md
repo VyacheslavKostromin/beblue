@@ -7,6 +7,8 @@
 
 `beblue-thinkpad` - Image flavor with some Thinkpad specific packages and configs
 
+`beblue-noctalia` - Niri+Noctalia flavor
+
 `beblue-nvidia` - *Soon maybe*
 
 > [!WARNING]  
