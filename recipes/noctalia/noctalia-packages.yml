@@ -1,0 +1,49 @@
+modules:
+  - type: dnf
+    repos:
+      # nonfree: negativo17
+      copr:
+        - yalter/niri
+        - trixieua/mesa-clang
+        - imput/helium
+        - lionheartp/Hyprland
+        - ublue-os/packages
+    install:
+      packages:
+        - ffmpeg
+        - btop
+        - bat
+        - smartmontools
+        - ncdu
+        - fastfetch
+        - distrobox
+        - helium-bin
+        - noctalia
+        - noctalia-greeter
+        - greetd
+        - alacritty
+        - uupd
+      #  - gnome-console
+    remove:
+      packages:
+        - toolbox
+    #replace:
+    #  - from-repo: copr:copr.fedorainfracloud.org:bebeb:nautilus-kgx
+    #    packages:
+    #      - nautilus
+    replace:
+      - from-repo: copr:copr.fedorainfracloud.org:trixieua:mesa-clang
+        skip-unavailable: true
+        packages:
+          - mesa-filesystem
+          - mesa-libgbm
+          - mesa-dri-drivers
+          - mesa-libEGL
+          - mesa-libGL
+          - mesa-vulkan-drivers
+          - mesa-va-drivers
+
+  - type: soar
+    additional-repos: true
+    auto-upgrade: true
+    upgrade-interval: '1d'
