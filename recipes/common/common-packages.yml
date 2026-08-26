@@ -7,6 +7,7 @@ modules:
         - trixieua/mutter-patched
         - trixieua/mesa-clang
         - trixieua/morewaita-icon-theme
+        - imput/helium
     install:
       packages:
         - ffmpeg
@@ -14,12 +15,11 @@ modules:
         - btop
         - bat
         - morewaita-icon-theme
-        - nvtop
         - smartmontools
-        - ncdu
         - fastfetch
         - gnome-tweaks
         - distrobox
+        - helium-bin
       #  - gnome-console
         - gnome-backgrounds-extras
     remove:
@@ -29,6 +29,7 @@ modules:
         - toolbox
       #  - ptyxis
         - gnome-classic-session
+        - gnome-software
     #replace:
     #  - from-repo: copr:copr.fedorainfracloud.org:bebeb:nautilus-kgx
     #    packages:
@@ -54,6 +55,12 @@ modules:
           - mesa-libGL
           - mesa-vulkan-drivers
           - mesa-va-drivers
+
+  - type: default-flatpaks
+    configurations:
+      - scope: system
+        install: # system flatpaks we want all users to have and not remove
+          - io.github.kolunmi.Bazaar
 
   - type: soar
     additional-repos: true

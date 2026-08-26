@@ -1,7 +1,7 @@
 name: beblue-main
 description: bebebeba
 
-base-image: quay.io/fedora/fedora-silverblue
+base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 44
 
 platforms:
