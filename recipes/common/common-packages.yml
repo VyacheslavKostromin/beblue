@@ -22,6 +22,7 @@ modules:
         - gnome-backgrounds-extras
         - gnome-logs
         - gnome-text-editor
+        - libva-intel-driver
     remove:
       packages:
         - firefox
@@ -63,9 +64,12 @@ modules:
         packages:
           - old: ffmpeg-free
           - new: ffmpeg
-    install:
+    group-install:
+      with-optional: false
       packages:
-        - libva-intel-driver
+        - multimedia
+      exclude:
+        - PackageKit-gstreamer-plugin
 
   - type: default-flatpaks
     configurations:
