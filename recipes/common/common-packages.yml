@@ -9,6 +9,7 @@ modules:
         - trixieua/morewaita-icon-theme
         - imput/helium
     install:
+      allow-erasing: true
       packages:
         - adw-gtk3-theme
         - bat
