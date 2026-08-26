@@ -25,7 +25,6 @@ modules:
         - alacritty
         - uupd
         - xdg-desktop-portal-gnome
-        - nautilus
       #  - gnome-console
     remove:
       packages:
