@@ -5,10 +5,6 @@ modules:
       - preempt=full
       - mitigations=off
       - nowatchdog
-      - zswap.enabled=1
-      - zswap.compressor=zstd
-      - zswap.shrinker_enabled=1
-      - zswap.max_pool_percent=30
 
   - type: systemd
     system:
