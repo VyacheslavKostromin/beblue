@@ -4,3 +4,4 @@ install:
   - 3733 # Tiling Assistant
   - 10660 # Quick Settings Scroll
   - 4998 # Legacy (GTK3) Theme Scheme Auto Switcher
+  - 5470 # Weather O'Clock
