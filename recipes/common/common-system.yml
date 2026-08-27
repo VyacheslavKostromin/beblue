@@ -9,4 +9,4 @@ modules:
   - type: systemd
     system:
       enabled:
-        - uupd.service
+        - uupd.timer
