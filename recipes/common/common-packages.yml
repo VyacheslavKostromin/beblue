@@ -68,6 +68,10 @@ modules:
         - multimedia
       exclude:
         - PackageKit-gstreamer-plugin
+  
+  - type: script
+    scripts:
+      - updates-testing.sh
 
   - type: default-flatpaks
     configurations:
