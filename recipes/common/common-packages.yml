@@ -40,6 +40,11 @@ modules:
         - gnome-classic-session
         - gnome-software
         - gnome-system-monitor
+        - gnome-shell-extension-apps-menu
+        - gnome-shell-extension-background-logo
+        - gnome-shell-extension-launch-new-instance
+        - gnome-shell-extension-places-menu
+        - gnome-shell-extension-window-list
         - totem-video-thumbnailer
     #replace:
     #  - from-repo: copr:copr.fedorainfracloud.org:bebeb:nautilus-kgx

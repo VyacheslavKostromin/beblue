@@ -20,4 +20,16 @@ auto-update-notifications=true
 hide-eol=false
 
 [org.gnome.shell]
-favorite-apps= ['helium.desktop', 'org.gnome.Nautilus.desktop', 'io.github.kolunmi.Bazaar.desktop', 'org.gnome.Weather', 'org.gnome.TextEditor.desktop', 'org.gnome.Calculator.desktop']
+favorite-apps=['helium.desktop', 'org.gnome.Nautilus.desktop', 'io.github.kolunmi.Bazaar.desktop', 'org.gnome.Weather', 'org.gnome.TextEditor.desktop', 'org.gnome.Calculator.desktop']
+enabled-extensions=['caffeine@patapon.info', 'legacyschemeautoswitcher@joshimukul29.gmail.com', 'quick-settings-scroll@diskmth.fr', 'weatheroclock@CleoMenezesJr.github.io', 'tiling-assistant@leleat-on-github']
+
+[org.gnome.shell.extensions.caffeine]
+enable-fullscreen=true
+enable-mpris=true
+show-notifications=false
+
+[org.gnome.shell.extensions.tiling-assistant]
+single-screen-gap=4
+window-gap=4
+enable-untile-animations=false
+dynamic-keybinding-behavior=0
