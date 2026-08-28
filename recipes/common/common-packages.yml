@@ -89,6 +89,7 @@ modules:
 
   - type: default-flatpaks
     configurations:
+      - notify: false
       - scope: system
         repo:
           title: Flathub
