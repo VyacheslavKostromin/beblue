@@ -11,5 +11,6 @@ modules:
       enabled:
         - uupd.timer
         - dconf-update.service
+        - scx_loader.service
       masked:
         - rpm-ostreed-automatic.timer
