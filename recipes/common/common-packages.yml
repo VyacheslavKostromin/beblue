@@ -9,6 +9,7 @@ modules:
         - trixieua/morewaita-icon-theme
         - imput/helium
         - ublue-os/packages
+        - bieszczaders/kernel-cachyos-addons
     install:
       allow-erasing: true
       packages:
@@ -33,6 +34,8 @@ modules:
         - ffmpegthumbnailer
         - sushi
         - uupd
+        - scx-scheds
+        - scx-tools
     remove:
       packages:
         - firefox

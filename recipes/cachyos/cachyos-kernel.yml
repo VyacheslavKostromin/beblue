@@ -2,13 +2,10 @@ type: dnf
 repos:
   copr:
     - bieszczaders/kernel-cachyos-lto
-    - bieszczaders/kernel-cachyos-addons
 install:
   packages:
     - kernel-cachyos-lto
     - kernel-cachyos-lto-devel-matched
-    - scx-scheds
-    - scx-tools
 remove:
   packages:
     - kernel
