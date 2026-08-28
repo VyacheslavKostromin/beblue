@@ -12,21 +12,27 @@ modules:
     install:
       allow-erasing: true
       packages:
+        - alsa-firmware
+        - gvfs-nfs
         - adw-gtk3-theme
         - bat
+        - bazaar
         - morewaita-icon-theme
         - smartmontools
         - fastfetch
         - gnome-tweaks
         - distrobox
         - helium-bin
-        - uupd
       #  - gnome-console
         - gnome-backgrounds-extras
         - gnome-logs
         - gnome-text-editor
         - libva-intel-driver
+        - libavcodec
+        - lshw
+        - zstd
         - ffmpeg
+        - ffmpegthumbnailer
     remove:
       packages:
         - firefox
@@ -36,6 +42,7 @@ modules:
         - gnome-classic-session
         - gnome-software
         - gnome-system-monitor
+        - totem-video-thumbnailer
     #replace:
     #  - from-repo: copr:copr.fedorainfracloud.org:bebeb:nautilus-kgx
     #    packages:
@@ -76,26 +83,8 @@ modules:
   - type: default-flatpaks
     configurations:
       - scope: system
-        install: # system flatpaks we want all users to have and not remove
-          - io.github.kolunmi.Bazaar
-          - org.gnome.Loupe
-          - org.gnome.Decibels
-          - org.gnome.Calculator
-          - org.gnome.Calendar
-          - org.gnome.Snapshot
-          - org.gnome.Characters
-          - org.gnome.clocks
-          - org.gnome.baobab
-          - org.gnome.SimpleScan
-          - org.gnome.Papers
-          - org.gnome.font-viewer
-          - org.gnome.Showtime
-          - org.gnome.Weather
-          - net.nokyan.Resources
-          - io.github.nozwock.Packet
-          - com.github.tchx84.Flatseal
-          - com.mattjakeman.ExtensionManager
-          - org.gnome.FileRoller
+        repo:
+          title: Flathub
 
   - type: soar
     additional-repos: true

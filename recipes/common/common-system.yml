@@ -9,4 +9,6 @@ modules:
   - type: systemd
     system:
       enabled:
-        - uupd.timer
+        - bootc-automatic-updates.timer
+      masked:
+        - rpm-ostreed-automatic.timer
