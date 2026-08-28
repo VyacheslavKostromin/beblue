@@ -36,6 +36,8 @@ modules:
         - uupd
         - scx-scheds
         - scx-tools
+        - nautilus-python
+        - python-dbus
     remove:
       packages:
         - firefox
