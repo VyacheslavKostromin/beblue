@@ -24,11 +24,9 @@ modules:
         - distrobox
         - helium-bin
       #  - gnome-console
-        - gnome-backgrounds-extras
         - gnome-logs
         - gnome-text-editor
         - libva-intel-driver
-        - libavcodec
         - lshw
         - zstd
         - ffmpeg
