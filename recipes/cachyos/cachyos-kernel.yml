@@ -1,7 +1,7 @@
 type: dnf
 repos:
   copr:
-    - bieszczaders/kernel-cachyos-lto
+    - bebeb/kernel-cachyos-lto-copr-mr99-test
 install:
   packages:
     - kernel-cachyos-lto
