@@ -6,4 +6,4 @@ modules:
 
   - type: gschema-overrides
     include:
-      - zz1_gnome_shell.gschema.override
+      - zz0_beblue.gschema.override
