@@ -11,5 +11,6 @@ modules:
       enabled:
         - bootc-fetch-apply-updates.timer
         - bootc-fetch-apply-updates.service
+        - dconf-update.service
       masked:
         - rpm-ostreed-automatic.timer
