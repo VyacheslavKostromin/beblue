@@ -1,10 +1,9 @@
 [org/gnome/desktop/app-folders/folders/Utilities]
-apps=['com.github.tchx84.Flatseal.desktop', 'io.github.flattool.Warehouse.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'org.gnome.World.PikaBackup.desktop', 'net.nokyan.Resources', 'com.github.fabito02.chromaleon.desktop', 'org.gnome.FileRoller.desktop']
-categories=['X-GNOME-Utilities']
+apps=['org.gnome.Papers.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.World.PikaBackup.desktop', 'org.gnome.Decibels.desktop', 'com.github.tchx84.Flatseal.desktop', 'org.gnome.Showtime.desktop', 'org.gnome.tweaks.desktop', 'net.nokyan.Resources.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'io.github.fabrialberio.pinapp.desktop', 'ca.desrt.dconf-editor.desktop']
 name='X-GNOME-Utilities.directory'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/System]
-apps=['org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Logs.desktop', 'org.freedesktop.MalcontentControl.desktop', 'org.gnome.SystemMonitor.desktop', 'cx.modal.TestCenter.desktop']
+apps=['org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Logs.desktop', 'org.freedesktop.MalcontentControl.desktop', 'net.nokyan.Resources.desktop', 'cx.modal.TestCenter.desktop']
 name='X-GNOME-System.directory'
 translate=true

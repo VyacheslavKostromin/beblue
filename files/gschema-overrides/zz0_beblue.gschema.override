@@ -20,7 +20,7 @@ auto-update-notifications=true
 hide-eol=false
 
 [org.gnome.shell]
-favorite-apps=['helium.desktop', 'org.gnome.Nautilus.desktop', 'io.github.kolunmi.Bazaar.desktop', 'org.gnome.Weather', 'org.gnome.TextEditor.desktop', 'org.gnome.Calculator.desktop']
+favorite-apps=['helium.desktop', 'io.github.kolunmi.Bazaar.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.Settings.desktop']
 enabled-extensions=['caffeine@patapon.info', 'legacyschemeautoswitcher@joshimukul29.gmail.com', 'quick-settings-scroll@diskmth.fr', 'weatheroclock@CleoMenezesJr.github.io', 'tiling-assistant@leleat-on-github']
 
 [org.gnome.shell.extensions.caffeine]
