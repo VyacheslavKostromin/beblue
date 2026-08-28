@@ -18,6 +18,7 @@ modules:
         - adw-gtk3-theme
         - bat
         - bazaar
+        - baobab
         - morewaita-icon-theme
         - smartmontools
         - fastfetch

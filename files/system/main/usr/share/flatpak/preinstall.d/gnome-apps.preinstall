@@ -16,9 +16,6 @@ Branch=stable
 [Flatpak Preinstall org.gnome.Decibels]
 Branch=stable
 
-[Flatpak Preinstall org.gnome.baobab]
-Branch=stable
-
 [Flatpak Preinstall org.gnome.SimpleScan]
 Branch=stable
 
