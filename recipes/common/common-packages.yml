@@ -32,6 +32,7 @@ modules:
         - ffmpeg
         - ffmpegthumbnailer
         - sushi
+        - uupd
     remove:
       packages:
         - firefox
