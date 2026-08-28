@@ -31,6 +31,7 @@ modules:
         - zstd
         - ffmpeg
         - ffmpegthumbnailer
+        - sushi
     remove:
       packages:
         - firefox
