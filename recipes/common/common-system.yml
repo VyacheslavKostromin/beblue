@@ -9,6 +9,7 @@ modules:
   - type: systemd
     system:
       enabled:
-        - bootc-automatic-updates.timer
+        - bootc-fetch-apply-updates.timer
+        - bootc-fetch-apply-updates.service
       masked:
         - rpm-ostreed-automatic.timer
