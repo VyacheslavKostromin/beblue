@@ -12,5 +12,6 @@ modules:
         - uupd.timer
         - dconf-update.service
         - scx_loader.service
+        - flatpak-preinstall.service
       masked:
         - rpm-ostreed-automatic.timer
