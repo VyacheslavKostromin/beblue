@@ -20,7 +20,14 @@
   ```
   sudo bootc switch ghcr.io/vyacheslavkostromin/beblue-main:latest
   ```
-- Reboot again to complete the installation
+  Or flavors:
+  ```
+  sudo bootc switch ghcr.io/vyacheslavkostromin/beblue-cachyos:latest
+  ```
+  ```
+  sudo bootc switch ghcr.io/vyacheslavkostromin/beblue-thinkpad:latest
+  ```
+- Reboot to complete the installation
   ```
   systemctl reboot
   ```

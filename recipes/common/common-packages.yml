@@ -89,10 +89,10 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - notify: false
       - scope: system
         repo:
           title: Flathub
+        notify: false
 
   - type: soar
     additional-repos: true
