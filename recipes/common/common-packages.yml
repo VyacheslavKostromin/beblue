@@ -64,7 +64,6 @@ modules:
           - gdm
           - gnome-shell
           - gnome-shell-common
-          - xorg-x11-server-Xwayland
     replace:
       - from-repo: copr:copr.fedorainfracloud.org:trixieua:mesa-clang
         skip-unavailable: true
