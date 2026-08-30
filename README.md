@@ -3,13 +3,9 @@
 ### Differences between images
 `beblue-main` - Mostly vanilla Silverblue image with some goodies (or bads)
 
-`beblue-cachyos` - Image flavor with CachyOS kernel included
+`beblue-cachyos` - Image variant with CachyOS kernel included
 
-`beblue-thinkpad` - Image flavor with some Thinkpad specific packages and configs
-
-`beblue-noctalia` - Niri+Noctalia flavor
-
-`beblue-nvidia` - *Soon maybe*
+`beblue-thinkpad` - Image variant with some Thinkpad specific packages and configs
 
 > [!WARNING]  
 > [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
@@ -20,7 +16,7 @@
   ```
   sudo bootc switch ghcr.io/vyacheslavkostromin/beblue-main:latest
   ```
-  Or flavors:
+  Or other variants:
   ```
   sudo bootc switch ghcr.io/vyacheslavkostromin/beblue-cachyos:latest
   ```
