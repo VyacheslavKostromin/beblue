@@ -93,6 +93,7 @@ modules:
   - type: script
     scripts:
       - updates-testing.sh
+      - fuck-cisco.sh
 
   - type: default-flatpaks
     configurations:
