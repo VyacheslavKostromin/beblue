@@ -10,6 +10,8 @@ modules:
         - imput/helium
         - ublue-os/packages
         - bieszczaders/kernel-cachyos-addons
+      remove:
+        - fedora-cisco-openh264
     install:
       allow-erasing: true
       packages:
@@ -32,6 +34,7 @@ modules:
         - lshw
         - zstd
         - ffmpeg
+        - ffmpeg-libs
         - ffmpegthumbnailer
         - sushi
         - uupd
@@ -39,6 +42,7 @@ modules:
         - scx-tools
         - nautilus-python
         - python-dbus
+        - noopenh264
     remove:
       packages:
         - firefox
@@ -54,6 +58,7 @@ modules:
         - gnome-shell-extension-places-menu
         - gnome-shell-extension-window-list
         - totem-video-thumbnailer
+        - gstreamer1-plugin-openh264
     #replace:
     #  - from-repo: copr:copr.fedorainfracloud.org:bebeb:nautilus-kgx
     #    packages:
