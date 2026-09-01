@@ -27,8 +27,8 @@ favorite-apps=['helium.desktop', 'io.github.kolunmi.Bazaar.desktop', 'org.gnome.
 enabled-extensions=['caffeine@patapon.info', 'legacyschemeautoswitcher@joshimukul29.gmail.com', 'quick-settings-scroll@diskmth.fr', 'weatheroclock@CleoMenezesJr.github.io', 'tiling-assistant@leleat-on-github']
 
 [org.gnome.shell.extensions.caffeine]
-enable-fullscreen=true
-enable-mpris=true
+enable-fullscreen=false
+enable-mpris=false
 show-notifications=false
 
 [org.gnome.shell.extensions.tiling-assistant]
