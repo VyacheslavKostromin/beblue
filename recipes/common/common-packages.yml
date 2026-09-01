@@ -1,6 +1,9 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
 modules:
   - type: dnf
     repos:
+      remove:
+        - fedora-cisco-openh264
       nonfree: rpmfusion
       copr:
       #  - bebeb/nautilus-kgx
@@ -10,8 +13,6 @@ modules:
         - imput/helium
         - ublue-os/packages
         - bieszczaders/kernel-cachyos-addons
-      remove:
-        - fedora-cisco-openh264
     install:
       allow-erasing: true
       packages:
