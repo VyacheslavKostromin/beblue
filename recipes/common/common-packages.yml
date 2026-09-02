@@ -123,6 +123,7 @@ modules:
           - org.gnome.Showtime
           - org.gnome.Weather
           - net.nokyan.Resources
+          - it.mijorus.gearlever
 
   - type: brew
     nofile-limits: true
